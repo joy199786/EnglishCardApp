@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		458C278F238A77250039CB68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C278E238A77250039CB68 /* AppDelegate.swift */; };
+		458C2791238A77250039CB68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C2790238A77250039CB68 /* SceneDelegate.swift */; };
+		458C2793238A77250039CB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C2792238A77250039CB68 /* ContentView.swift */; };
+		458C2795238A77280039CB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458C2794238A77280039CB68 /* Assets.xcassets */; };
+		458C2798238A77280039CB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458C2797238A77280039CB68 /* Preview Assets.xcassets */; };
+		458C279B238A77280039CB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458C2799238A77280039CB68 /* LaunchScreen.storyboard */; };
+		458C27A3238A77470039CB68 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27A2238A77470039CB68 /* Word.swift */; };
+		458C27A5238A78880039CB68 /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27A4238A78880039CB68 /* WordData.swift */; };
+		458C27A7238A7AE10039CB68 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27A6238A7AE10039CB68 /* WordList.swift */; };
+		458C27A9238A7C0D0039CB68 /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27A8238A7C0D0039CB68 /* WordRow.swift */; };
+		458C27AB238A7F200039CB68 /* WordEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27AA238A7F200039CB68 /* WordEditor.swift */; };
+		458C27AF238A86C20039CB68 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27AE238A86C20039CB68 /* AppView.swift */; };
+		458C27B1238A87B30039CB68 /* WordTset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458C27B0238A87B30039CB68 /* WordTset.swift */; };
+		45DE535C23911C0700FDB59D /* AnalysisGrapic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE535B23911C0700FDB59D /* AnalysisGrapic.swift */; };
+		45DE535E2391256E00FDB59D /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE535D2391256E00FDB59D /* PieChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		458C278B238A77250039CB68 /* WordCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		458C278E238A77250039CB68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		458C2790238A77250039CB68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		458C2792238A77250039CB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		458C2794238A77280039CB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		458C2797238A77280039CB68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		458C279A238A77280039CB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		458C279C238A77280039CB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458C27A2238A77470039CB68 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		458C27A4238A78880039CB68 /* WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordData.swift; sourceTree = "<group>"; };
+		458C27A6238A7AE10039CB68 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		458C27A8238A7C0D0039CB68 /* WordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRow.swift; sourceTree = "<group>"; };
+		458C27AA238A7F200039CB68 /* WordEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEditor.swift; sourceTree = "<group>"; };
+		458C27AE238A86C20039CB68 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		458C27B0238A87B30039CB68 /* WordTset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTset.swift; sourceTree = "<group>"; };
+		45DE535B23911C0700FDB59D /* AnalysisGrapic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisGrapic.swift; sourceTree = "<group>"; };
+		45DE535D2391256E00FDB59D /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		458C2788238A77250039CB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458C2782238A77250039CB68 = {
+			isa = PBXGroup;
+			children = (
+				458C278D238A77250039CB68 /* WordCardApp */,
+				458C278C238A77250039CB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458C278C238A77250039CB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458C278B238A77250039CB68 /* WordCardApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		458C278D238A77250039CB68 /* WordCardApp */ = {
+			isa = PBXGroup;
+			children = (
+				458C27A2238A77470039CB68 /* Word.swift */,
+				458C27A4238A78880039CB68 /* WordData.swift */,
+				458C27A6238A7AE10039CB68 /* WordList.swift */,
+				458C27AA238A7F200039CB68 /* WordEditor.swift */,
+				458C27A8238A7C0D0039CB68 /* WordRow.swift */,
+				45DE535B23911C0700FDB59D /* AnalysisGrapic.swift */,
+				45DE535D2391256E00FDB59D /* PieChart.swift */,
+				458C27AE238A86C20039CB68 /* AppView.swift */,
+				458C27B0238A87B30039CB68 /* WordTset.swift */,
+				458C278E238A77250039CB68 /* AppDelegate.swift */,
+				458C2790238A77250039CB68 /* SceneDelegate.swift */,
+				458C2792238A77250039CB68 /* ContentView.swift */,
+				458C2794238A77280039CB68 /* Assets.xcassets */,
+				458C2799238A77280039CB68 /* LaunchScreen.storyboard */,
+				458C279C238A77280039CB68 /* Info.plist */,
+				458C2796238A77280039CB68 /* Preview Content */,
+			);
+			path = WordCardApp;
+			sourceTree = "<group>";
+		};
+		458C2796238A77280039CB68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				458C2797238A77280039CB68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458C278A238A77250039CB68 /* WordCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458C279F238A77280039CB68 /* Build configuration list for PBXNativeTarget "WordCardApp" */;
+			buildPhases = (
+				458C2787238A77250039CB68 /* Sources */,
+				458C2788238A77250039CB68 /* Frameworks */,
+				458C2789238A77250039CB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCardApp;
+			productName = WordCardApp;
+			productReference = 458C278B238A77250039CB68 /* WordCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		458C2783238A77250039CB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = 00657254;
+				TargetAttributes = {
+					458C278A238A77250039CB68 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 458C2786238A77250039CB68 /* Build configuration list for PBXProject "WordCardApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 458C2782238A77250039CB68;
+			productRefGroup = 458C278C238A77250039CB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458C278A238A77250039CB68 /* WordCardApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458C2789238A77250039CB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458C279B238A77280039CB68 /* LaunchScreen.storyboard in Resources */,
+				458C2798238A77280039CB68 /* Preview Assets.xcassets in Resources */,
+				458C2795238A77280039CB68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458C2787238A77250039CB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458C278F238A77250039CB68 /* AppDelegate.swift in Sources */,
+				458C27B1238A87B30039CB68 /* WordTset.swift in Sources */,
+				458C27A3238A77470039CB68 /* Word.swift in Sources */,
+				458C27AF238A86C20039CB68 /* AppView.swift in Sources */,
+				458C2791238A77250039CB68 /* SceneDelegate.swift in Sources */,
+				458C27A9238A7C0D0039CB68 /* WordRow.swift in Sources */,
+				458C27A5238A78880039CB68 /* WordData.swift in Sources */,
+				45DE535C23911C0700FDB59D /* AnalysisGrapic.swift in Sources */,
+				458C2793238A77250039CB68 /* ContentView.swift in Sources */,
+				45DE535E2391256E00FDB59D /* PieChart.swift in Sources */,
+				458C27AB238A7F200039CB68 /* WordEditor.swift in Sources */,
+				458C27A7238A7AE10039CB68 /* WordList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		458C2799238A77280039CB68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				458C279A238A77280039CB68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		458C279D238A77280039CB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		458C279E238A77280039CB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		458C27A0238A77280039CB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WordCardApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WordCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0657154.WordCardApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		458C27A1238A77280039CB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WordCardApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WordCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0657154.WordCardApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		458C2786238A77250039CB68 /* Build configuration list for PBXProject "WordCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458C279D238A77280039CB68 /* Debug */,
+				458C279E238A77280039CB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458C279F238A77280039CB68 /* Build configuration list for PBXNativeTarget "WordCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458C27A0238A77280039CB68 /* Debug */,
+				458C27A1238A77280039CB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 458C2783238A77250039CB68 /* Project object */;
+}
